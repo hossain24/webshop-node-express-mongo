@@ -1,0 +1,19 @@
+body{
+   background-color: antiquewhite
+}
+
+.navbar{
+    background-color: rgb(26, 28, 65);
+}
+
+.thumbnail{
+    background-color: aliceblue
+}
+.thumbnail img {
+    max-height: 150px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
