@@ -6,7 +6,7 @@
             <li class="list-group-item">
                 <span class="badge">{{ this.qty }}</span>
                 <strong>{{ this.item.title }}</strong>
-                <span class="label label-success">${{ this.price }}</span>
+                <span class="label label-success">DKK{{ this.price }}</span>
                 <div class="btn-group">
                     <button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Action
                         <span class="caret"></span></button>
@@ -22,7 +22,7 @@
 </div>
 <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <strong>Total: {{ totalPrice }}</strong>
+        <strong>Total: DKK{{ totalPrice }}</strong>
     </div>
 </div>
 <hr>
